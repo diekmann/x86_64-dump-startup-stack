@@ -18,14 +18,6 @@ _exit:
     mov rax, 60
     syscall
 
-;_read:
-;    mov rax, 0   ; NR_READ
-;    mov rdi, 0   ; STDIN
-;    mov rsi, buf ; buf
-;    mov rdx, 1   ; count
-;    syscall
-;    ret
-
 ; print newline
 _printnl:
     mov rax, 1
